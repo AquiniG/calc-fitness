@@ -37,14 +37,19 @@ fun main() {
     val diferencaIdade = idade1 - idade2
     val mesmaFaixaEtaria = diferencaIdade <= 5 && diferencaIdade >= -5
 
+    // ===== SAÍDA =====
 
-
-
-
-
-
-
-
+    println("=== Perfil de $nome1 ===")
+    println("IMC: $imc1")
+    println("Diferenca para meta: $diferencaParaMeta1 kg")
+    println("Calorias estimadas: $caloriasEstimadas1")
+    println("Esta acima do peso? $estaAcimaDoPeso1")
+    println("Bateu a meta? $bateuMeta1")
+    println("Esta em faixa saudavel? $estaEmFaixaSaudavel1")
+    println("Precisa de atencao redobrada? $precisaAtencao1")
+    println("Situacao OK? $situacaoOk1")
+    println()
+    println("Mesa faixa etaria que $nome2? $mesmaFaixaEtaria")
 
 
 }
