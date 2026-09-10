@@ -24,7 +24,7 @@ fun main() {
     // ===== Operadores Relacionais =====
 
     val estaAcimaDoPeso1 = imc1 > 25.0
-    val bateuMeta1 = pesoKg1 <= metaPesoKg1
+    val bateuAMeta1 = pesoKg1 <= metaPesoKg1
 
     // ===== Operadores Lógicos =====
 
@@ -44,7 +44,7 @@ fun main() {
     println("Diferenca para meta: $diferencaParaMeta1 kg")
     println("Calorias estimadas: $caloriasEstimadas1")
     println("Esta acima do peso? $estaAcimaDoPeso1")
-    println("Bateu a meta? $bateuMeta1")
+    println("Bateu a meta? $bateuAMeta1")
     println("Esta em faixa saudavel? $estaEmFaixaSaudavel1")
     println("Precisa de atencao redobrada? $precisaAtencao1")
     println("Situacao OK? $situacaoOk1")
