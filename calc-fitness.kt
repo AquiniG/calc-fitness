@@ -40,6 +40,7 @@ fun main() {
     // ===== SAÍDA =====
 
     println("=== Perfil de $nome1 ===")
+    println()
     println("IMC: $imc1")
     println("Diferenca para meta: $diferencaParaMeta1 kg")
     println("Calorias estimadas: $caloriasEstimadas1")
